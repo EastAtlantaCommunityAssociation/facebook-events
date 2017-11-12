@@ -1,0 +1,37 @@
+#fbEventCalendar ul {
+  list-style: none;
+}
+
+#fbEventCalendar li a {
+  margin-bottom: 20px;
+}
+
+#fbEventCalendar li a {
+  color: #980260;
+}
+
+/* Date */
+#fbEventCalendar li.event .date {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+#fbEventCalendar li.event .date-mon {
+  font-size: 18px;
+  color: #e21818;
+}
+#fbEventCalendar li.event .date-day {
+  font-size: 28px;
+}
+/* End Date */
+
+/* Details */
+#fbEventCalendar li.event .details {
+  width: 85%;
+  display: inline-block;
+}
+#fbEventCalendar li.event .details .name {
+  font-weight: bold;
+}
+/* End Details */
