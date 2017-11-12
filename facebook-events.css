@@ -1,37 +1,38 @@
-#fbEventCalendar ul {
+.fbEventCalendar ul {
   list-style: none;
+  padding: 0;
 }
 
-#fbEventCalendar li a {
+.fbEventCalendar li a {
   margin-bottom: 20px;
 }
 
-#fbEventCalendar li a {
+.fbEventCalendar li a {
   color: #024F5E;
 }
 
 /* Date */
-#fbEventCalendar li.event .date {
-  width: 15%;
+.fbEventCalendar li.event .date {
+  width: 20%;
   display: inline-block;
   vertical-align: top;
   text-align: center;
 }
-#fbEventCalendar li.event .date-mon {
+.fbEventCalendar li.event .date-mon {
   font-size: 18px;
   color: #e21818;
 }
-#fbEventCalendar li.event .date-day {
+.fbEventCalendar li.event .date-day {
   font-size: 28px;
 }
 /* End Date */
 
 /* Details */
-#fbEventCalendar li.event .details {
-  width: 85%;
+.fbEventCalendar li.event .details {
+  width: 80%;
   display: inline-block;
 }
-#fbEventCalendar li.event .details .name {
+.fbEventCalendar li.event .details .name {
   font-weight: bold;
 }
 /* End Details */

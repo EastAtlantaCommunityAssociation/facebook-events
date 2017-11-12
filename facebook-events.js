@@ -1,5 +1,5 @@
 $(function() {
-  $eventCal = $('#fbEventCalendar');
+  $eventCal = $('.fbEventCalendar');
   if ($eventCal.length == 0) { return }
 
   $upcomingCal = $('#fbUpcomingCalendar ul', $eventCal);
