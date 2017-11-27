@@ -26,6 +26,13 @@ $(function() {
 
   function parseFbEvent(rawEvent) {
     mStart = moment(rawEvent.start_time)
+
+    if(rawEvent.place !== undefined) {
+      eventLocation = rawEvent.place.name;
+    } else {
+      eventLocation = ''
+    }
+
     return {
       startTime: mStart,
       month: mStart.format('MMM'),
@@ -33,7 +40,7 @@ $(function() {
       url: 'https://facebook.com/' + rawEvent.id,
       description: rawEvent.description.substring(0, 250) + '...',
       name: rawEvent.name,
-      location: rawEvent.place.name
+      location: eventLocation
     };
   }
 
